@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;           
+}
+
+@media screen and (min-width: 1440px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    
+}
+
+body {
+    background: hsl(30, 38%, 92%); 
+}
+
+@media screen and (min-width: 1440px) {
+
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.banner-principal-mobile {
+    border-radius: 10px 10px 0 0;
+}
+
+.banner-principal-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .banner-principal-desktop {
+        display: flex;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .banner-principal-mobile {
+        display: none;
+    }
+    
+}
+
+.cartao-perfume {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .cartao-perfume {
+        margin: 1rem;
+        display: flex;
+        flex-direction: row;
+        width: 65vh;
+        height: 50vh;
+    }
+
+}
+
+.descricao-perfume {
+    background: #fff;
+    padding: 1.2rem;
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (min-width: 1440px) {
+    .descricao-perfume{
+        border-radius: 0 10px 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.5em;
+}
+
+
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: hsl(212, 21%, 14%);
+}
+
+span {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.preco-perfume {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.valor-promocao {
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    display: flex;
+    align-self: center;
+    
+}
+
+.valor-normal {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    justify-self: center;
+    padding: 1rem;
+    font-size: 12px;
+    text-decoration:  line-through;
+}
+
+button {
+    background: hsl(158, 36%, 37%);
+    width: 100%;
+    padding: 1rem;
+    border-style: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-weight: 700;
+    color: #fff; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icone-carrinho {
+    padding-right: 0.5rem;
+}
+
+@media screen and (min-width: 1440px) {
+    button:hover {
+        background: hsl(161, 39%, 23%);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+}
