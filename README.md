@@ -28,7 +28,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL solução: [https://www.frontendmentor.io/solutions/product-preview-card-component-vj_CRCBz6l](https://your-solution-url.com)
-- Live Site URL: [https://qr-code-nine-sigma.vercel.app/](https://your-live-site-url.com)
+- Live Site URL: [https://cartao-perfume.vercel.app/](https://your-live-site-url.com)
 
 ## Meu processo
 
